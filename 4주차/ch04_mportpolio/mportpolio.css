@@ -1,0 +1,60 @@
+﻿/* 스타일 초기화 */
+* { margin: 0px ; padding: 0px ; }
+header, body, footer { font-size: 14px; font-family: 맑은 고딕, 나눔고딕,굴림,돋음,'Times New Roman',serif; width: 100%; }
+header, footer { text-align : center ; }
+body { margin: auto; }
+footer { position: fixed; bottom: 0px; }
+
+/* 공통 스타일 */
+h1 { padding: 15px; font-size: 30px ; color: white; }
+h2 { font-size: 15px; color: white; }
+h3 { margin: 10px; font-size: 15px; color: #9370DB; text-shadow: 4px 4px 7px #9370DB; }
+h1, h2 { 
+	background: #654ea3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+img { border: 0; padding: 2px; }
+
+nav { margin: 5px 5px; }
+nav > span > a { font-style: bold; margin: 0 ; padding: 3px; border: 2px solid #eaafc8; float: right; text-decoration: none; background: #eaafc8; color: white; }
+nav > span > a:hover { background: #654ea3; color: white; }
+
+li { font-size : 20px;}
+
+@media only screen and (min-width: 321px) and (orientation: landscape) {
+	section { width: 80%; float: left; }
+	aside { width: 20%; text-align: center; float: right; }
+	footer { clear: both; }
+}
+
+.section1 ul li { list-style-position: inside; list-style-image: url("li.jpg"); }
+
+/* mintro.html 적용 스타일 */
+#stu-pic { width: 10em; height: 10em; float: left; }
+#introduce { table-layout: auto; width: 80%; border-collapse: seperate;}
+#intro{
+	font-size : 15px;
+	border : 3px solid #9370DB;
+	box-shadow : 2px 2px 2xp gray;
+}
+
+
+/* minfo.html 적용 스타일 */
+#year-table { table-layout: auto; width: 80%; border-collapse: seperate; }
+#year-table thead { background: #9370DB; }
+#logo { position: fixed; top:130px; left: 70px; opacity: 0.3; } 
+
+/* mstudy.html 적용 스타일 */
+#pjt1 { width: 15em; height: 15em;}
+#pjt2 { width: 15em; height: 15em;}
+
+/* mcareer.html 적용 스타일 */
+.semi-pic { width: 4em; height: 3em;  }
+#pic-container { overflow: hidden; }
+#pic-container:hover { height: 220px; }
+#pic1:hover { -webkit-transform: translate(50px,70px) scale(7,7); -moz-transform: scale(1.5); }
+#pic2:hover { -webkit-transform: translate(50px,70px) scale(7,7) ; -moz-transform: scale(1.5); }
+#pic3:hover { -webkit-transform: translate(50px,70px) scale(7,7); -moz-transform: scale(1.5); }
