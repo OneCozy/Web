@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>HTML5 개인 포트폴리오 홈페이지</title>
+	<link rel="stylesheet" href="mportpolio.css"/>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+		$( function() {
+			$( "#accordion" ).accordion();
+		} );
+	</script>
+</head>
+
+<body>
+	<header>
+		<h1>한상진 홈페이지</h1>
+	</header>
+	<nav>
+		<span><a href="mcareer.html"> 경력 </a></span>
+		<span><a href="mstudy.html"> 학술 </a></span>
+		<span><a href="minfo.html"> 인적 </a></span>
+		<span><a href="mintro.html"> 소개 </a></span>
+	</nav>
+  <div class="content">
+	<section class="section1">
+		<div id="accordion">
+			<h3>프로젝트</h3>
+				<div>
+					<ul>
+						<li>HTML과 CSS를 이용하여 명함 입출력 프로그램 만들기</li>
+					</ul>
+					<img id="pjt1" src="project1.png"/>
+					<img id="pjt2" src="project2.png"/>	
+				</div>	
+							
+			<h3>자격증</h3>
+				<div>
+					<ul>
+						<li>컴퓨터활용능력 1급</li>
+						<li>한국사능력검정 1급</li>
+					</ul>
+				</div>			
+				
+			<h3>수상</h3>
+				<div>
+					<ul>
+						<li>교내 학업증진프로그램 총장상</li>
+						<li>교내 드림하이 진로멘토링 프로젝트 장려상</li>
+					</ul>				
+				</div>
+		</div>
+	</section>
+	<aside>
+		<h3>참조링크</h3>
+		<a href="http://www.naver.com" target="_blank">
+			<img class="portal" src="naver.jpg" alt="네이버이동"/>
+		</a>
+		<a href="http://www.google.com" target="_blank">
+			<img class="portal" src="google.jpg" alt="구글이동"/>
+		</a>
+		<a href="http://www.ks.ac.kr" target="_blank">
+			<img class="portal" src="ks.png" alt="경성대학교 홈페이지 이동"/>
+		</a>
+	</aside>
+  </div>
+	<footer>
+		<h2> Copyleft 2021 Han, SangJin </h2>
+	</footer>
+</body>
+</html>
